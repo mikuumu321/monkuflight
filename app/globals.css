@@ -233,3 +233,68 @@ header */
 
 }
 
+
+.site-footer {
+  background-color: #003366;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-top {
+  background-color: #003366;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+  color: #00aaff;
+}
+
+.payment-icons img {
+  height: 30px;
+  width: auto;
+  background-color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.footer-bottom {
+  background-color: #002244;
+  font-size: 13px;
+}
+
+.footer-phone {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.disclaimer {
+  color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer-top {
+    text-align: center;
+  }
+
+  .payment-icons {
+    justify-content: center;
+  }
+}
+
+
