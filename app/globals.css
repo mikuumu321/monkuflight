@@ -233,20 +233,30 @@ header */
 
 }
 
-
 .site-footer {
   background-color: #003366;
   font-family: 'Segoe UI', sans-serif;
 }
 
+/* Footer Top Section */
 .footer-top {
   background-color: #003366;
+  background-image: url('/world-map.png'); /* Optional map background */
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
 }
 
 .footer-title {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-contact {
+  margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .footer-links li {
@@ -265,28 +275,39 @@ header */
 
 .payment-icons img {
   height: 30px;
-  width: auto;
-  background-color: white;
+  background-color: #fff;
   padding: 4px;
   border-radius: 4px;
 }
 
-.footer-bottom {
-  background-color: #002244;
+/* Disclaimer Section */
+.footer-disclaimer {
+  background-color: #27435f;
+  color: #a0d8f1; /* light blue */
   font-size: 13px;
+  padding: 10px 15px;
+}
+
+/* TFN Blinking White Row */
+.footer-tfn {
+  background-color: #ffffff;
+  padding: 15px 10px;
 }
 
 .footer-phone {
-  font-size: 16px;
-  color: #ffffff;
+  font-size: 20px;
+  color: #003366;
+  font-weight: 700;
+  animation: blink 1.8s infinite;
 }
 
-.disclaimer {
-  color: #e0e0e0;
-  margin-bottom: 10px;
+/* Blink Animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
 }
 
-/* Responsive Adjustments */
+/* Responsive */
 @media (max-width: 768px) {
   .footer-top {
     text-align: center;
@@ -294,6 +315,11 @@ header */
 
   .payment-icons {
     justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-phone {
+    font-size: 18px;
   }
 }
 

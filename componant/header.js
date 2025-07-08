@@ -9,7 +9,7 @@ function Header() {
       <Container className="px-3 py-2">
         {/* Left: Logo */}
         <Navbar.Brand href="/" className="d-flex align-items-center gap-2">
-          <img src="/1.jpg" alt="Logo" className="logo-img" />
+          <img src="/images/1.jpg" alt="Logo" className="logo-img" />
           <div className="d-flex flex-column lh-sm">
             <span className="brand-name">
               <span className="expedited">Expedited</span>
@@ -33,7 +33,7 @@ function Header() {
 
           {/* Right: Expert Call */}
           <div className="d-flex align-items-center gap-2 mt-3 mt-lg-0 justify-content-center justify-content-lg-end">
-            <img src="/1.jpg" alt="Expert" className="expert-img" />
+            <img src="/images/1.jpg" alt="Expert" className="expert-img" />
             <div className="text-start">
               <div className="expert-label">Talk to our Expert</div>
               <div className="expert-phone">+1-800-809-5287</div>
